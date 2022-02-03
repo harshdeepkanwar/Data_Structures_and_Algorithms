@@ -1,6 +1,6 @@
 // Author Name: Harshdeep Singh Kanwar
 
-// Doubly Linked List Implementation using C++
+// Singly Linked List Implementation using C++
 
 // Any corrections or suggestions are welcomed.
 
@@ -8,7 +8,7 @@
 
 using namespace std;
 
-// Creating a class Node that consists of data, a next pointer, a prev pointer of pointer to Node datatype.
+// Creating a class Node that consists of data, a next pointer of pointer to Node datatype.
 
 class Node
 {
@@ -23,7 +23,7 @@ class LinkedList
 {
 public:
     Node *head;
-    // This is a constructor that initializes the head to NULL when a new object of DLL class is created.
+    // This is a constructor that initializes the head to NULL when a new object of LinkedList class is created.
     LinkedList()
     {
         head = NULL;
